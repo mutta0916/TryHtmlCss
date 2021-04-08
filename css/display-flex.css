@@ -1,0 +1,25 @@
+.wrapper {
+    display: inline-block;
+    background-color: green;
+  }
+  .flex-container {
+    display: flex;
+    background-color: gray;
+    padding: 20px;
+  }
+  .flex-item {
+    height: 50px;
+    width: 100px;
+  }
+  .flex-item:nth-of-type(odd) {
+    background-color: red;
+  }
+  .flex-item:nth-of-type(even) {
+    background-color: black;
+  }
+  .flex-item:nth-of-type(n + 2) {
+    margin: 0 0 0 10px;
+  }
+.square {
+  border: blue 1px solid;
+}
