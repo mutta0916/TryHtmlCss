@@ -107,7 +107,10 @@ for (let number = 1; number<=10; number+=1) {
 }
 
 // undefined ← 配列に存在しない場合などに出現する
+// 値が入っていなかったり
+let val7;
+if (val7 === undefined) {
+    console.log("あんでぃふぁいんどーなつ");
+}
 
-// if ( val === undefined) {
 
-// }
