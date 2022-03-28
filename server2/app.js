@@ -20,8 +20,8 @@ app.get('/yadon', (req, res) => {
         const jsonObj = {
             advice: advice,
             yadon: {
-                voice: "あほ",
-                level: "あほ"
+                voice: "こんにちは",
+                level: "こんにちは"
             },
         }
         res.json(jsonObj)
